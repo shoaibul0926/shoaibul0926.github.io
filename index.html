@@ -28,6 +28,8 @@
                radial-gradient(circle at 85% 20%, rgba(90,209,184,.10), transparent 55%);
   }
   .eyebrow{color:var(--accent-2); font-weight:600; letter-spacing:.02em; font-size:.82rem}
+  .avatar{width:96px; height:96px; border-radius:50%; object-fit:cover; border:2px solid var(--border); display:block}
+  .name-label{margin:12px 0 2px; font-weight:700; font-size:1rem; letter-spacing:.04em}
   h1{font-size:clamp(2rem,4.5vw,2.9rem); margin:.4em 0 .2em}
   .tagline{color:var(--muted); font-size:1.05rem; max-width:620px}
   .links{margin-top:28px; display:flex; flex-wrap:wrap; gap:12px}
@@ -67,6 +69,8 @@
 
 <header class="hero">
   <div class="wrap">
+    <img class="avatar" src="assets/avatar.png" alt="Shoaibul Hoque" width="96" height="96">
+    <div class="name-label">SHOAIBUL HOQUE</div>
     <div class="eyebrow">ShoaibulHoque.com</div>
     <h1>AI Workflow / Prompt Engineer</h1>
     <p class="tagline">Directing AI-assisted development — I design the prompts, task breakdowns, and agent
