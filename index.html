@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shoaibul Hoque — AI Workflow / Prompt Engineer</title>
+<meta name="description" content="Shoaibul Hoque directs AI-assisted development with Claude Code — shipped products, mentoring at StepAhead.">
+<link rel="icon" href="data:,">
+<style>
+  :root{
+    --bg:#0b0d12; --bg-alt:#11141b; --card:#161a23; --border:#232838;
+    --text:#eef1f7; --muted:#9aa4b8; --accent:#7c9eff; --accent-2:#5ad1b8;
+    --radius:14px; --maxw:960px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.55;
+  }
+  a{color:var(--accent); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 20px}
+  header.hero{
+    padding:72px 0 56px; border-bottom:1px solid var(--border);
+    background:radial-gradient(circle at 15% 0%, rgba(124,158,255,.14), transparent 55%),
+               radial-gradient(circle at 85% 20%, rgba(90,209,184,.10), transparent 55%);
+  }
+  .eyebrow{color:var(--accent-2); font-weight:600; letter-spacing:.06em; text-transform:uppercase; font-size:.78rem}
+  h1{font-size:clamp(2rem,4.5vw,2.9rem); margin:.4em 0 .2em}
+  .tagline{color:var(--muted); font-size:1.05rem; max-width:620px}
+  .links{margin-top:28px; display:flex; flex-wrap:wrap; gap:12px}
+  .btn{
+    display:inline-block; padding:10px 18px; border-radius:999px; border:1px solid var(--border);
+    color:var(--text); font-weight:600; font-size:.92rem; background:var(--card);
+  }
+  .btn:hover{border-color:var(--accent); text-decoration:none}
+  .btn.primary{background:var(--accent); border-color:var(--accent); color:#0b0d12}
+  .btn.primary:hover{opacity:.9}
+  section{padding:56px 0}
+  section + section{border-top:1px solid var(--border)}
+  h2{font-size:1.5rem; margin:0 0 20px}
+  .about p{color:var(--muted); max-width:720px}
+  .mentor-line{margin-top:14px; padding:14px 18px; border:1px solid var(--border); border-radius:var(--radius); background:var(--bg-alt); max-width:720px}
+  .mentor-line strong{color:var(--text)}
+  .skills-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px}
+  .skill-card{background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:16px 18px}
+  .skill-card h3{margin:0 0 6px; font-size:.95rem; color:var(--accent-2)}
+  .skill-card p{margin:0; color:var(--muted); font-size:.88rem}
+  .projects-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px}
+  .project-card{
+    background:var(--card); border:1px solid var(--border); border-radius:var(--radius);
+    padding:20px; display:flex; flex-direction:column; gap:10px;
+  }
+  .project-card h3{margin:0; font-size:1.05rem}
+  .project-card p{margin:0; color:var(--muted); font-size:.9rem; flex-grow:1}
+  .project-links{display:flex; gap:14px; font-size:.86rem; flex-wrap:wrap}
+  .tag{display:inline-block; font-size:.72rem; color:var(--accent-2); border:1px solid var(--border); border-radius:999px; padding:2px 10px; margin-bottom:2px}
+  .edu-item{margin-bottom:16px}
+  .edu-item .meta{color:var(--muted); font-size:.88rem}
+  footer{padding:40px 0 60px; text-align:center; color:var(--muted); font-size:.88rem}
+  @media (max-width:600px){ header.hero{padding:52px 0 40px} section{padding:40px 0} }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Shoaibul Hoque</div>
+    <h1>AI Workflow / Prompt Engineer</h1>
+    <p class="tagline">Directing AI-assisted development — I design the prompts, task breakdowns, and agent
+      workflows that take products from requirements to live deployment, owning architecture, review, and release
+      end to end.</p>
+    <div class="links">
+      <a class="btn primary" href="assets/Shoaibul_Hoque_Resume.pdf" target="_blank" rel="noopener">Download Résumé</a>
+      <a class="btn" href="https://github.com/shoaibul0926" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/shoaibul-hoque-456632252" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="mailto:shoaibulhoque2002@gmail.com">Email</a>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap about">
+    <h2>About</h2>
+    <p>I design the prompts, task breakdowns, and command workflows that direct AI coding agents (Claude Code) to
+      build and ship full software products — from requirements to live deployment. I own every product decision:
+      architecture, code review, debugging, testing, and release. Track record shipping deployed products: browser-based
+      document Q&amp;A with OCR and object detection, RAG pipelines, REST APIs, authentication, and a multi-game
+      platform published on GitHub Pages and as a downloadable Android app.</p>
+    <div class="mentor-line">
+      <strong>Mentor at StepAhead</strong> — AI build sessions &amp; Claude Code enablement, Dubai.
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card"><h3>Prompt &amp; Workflow Engineering</h3><p>Prompt design, task decomposition, multi-step agent orchestration, Claude Code workflows</p></div>
+      <div class="skill-card"><h3>Prompt Engineering Techniques</h3><p>Few-shot &amp; chain-of-thought prompting, system-prompt design, structured/JSON output design</p></div>
+      <div class="skill-card"><h3>AI &amp; LLM Systems</h3><p>Anthropic &amp; OpenAI APIs, RAG / vector search (Voyage AI embeddings, vectra), model selection &amp; switching</p></div>
+      <div class="skill-card"><h3>Product Oversight</h3><p>Requirements definition, code review &amp; QA, debugging, testing, release management, architecture decisions</p></div>
+      <div class="skill-card"><h3>Web &amp; Backend (AI-directed build)</h3><p>JavaScript, TypeScript, React, Python, HTML/CSS, Node.js/Express, REST APIs, JWT, bcrypt</p></div>
+      <div class="skill-card"><h3>Tools &amp; Deployment</h3><p>Git/GitHub, GitHub Pages, GitHub Actions (CI/CD), Vite/Vitest, PWA, Capacitor (Android APK builds)</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <span class="tag">AI · RAG</span>
+        <h3>Chat Buddy</h3>
+        <p>AI chat &amp; document assistant: streaming responses across Anthropic/OpenAI, RAG document Q&amp;A, OCR,
+          object detection, and image generation — fully client-side.</p>
+        <div class="project-links">
+          <a href="https://shoaibul0926.github.io/chat-buddy/" target="_blank" rel="noopener">Live</a>
+          <a href="https://github.com/shoaibul0926/chat-buddy" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <span class="tag">Platform</span>
+        <h3>PixelDeck</h3>
+        <p>Retro arcade hub aggregating 16+ independently-built browser games behind a single-source game registry.
+          Also ships as an Android APK via GitHub Actions.</p>
+        <div class="project-links">
+          <a href="https://shoaibul0926.github.io/PixelDeck/" target="_blank" rel="noopener">Live</a>
+          <a href="https://github.com/shoaibul0926/PixelDeck" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <span class="tag">PWA</span>
+        <h3>To-Do List App</h3>
+        <p>React/TypeScript daily to-do app: priorities, due dates, a pinned Focus task, filters, inline editing.
+          Installable offline PWA, plus an Android APK.</p>
+        <div class="project-links">
+          <a href="https://shoaibul0926.github.io/todo-app/" target="_blank" rel="noopener">Live</a>
+          <a href="https://github.com/shoaibul0926/todo-app" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <span class="tag">AI</span>
+        <h3>Resume ATS Analyzer</h3>
+        <p>ATS scoring across keyword match, formatting, content quality, and readability, plus AI-rewritten resume
+          bullets against a target job description.</p>
+        <div class="project-links">
+          <a href="https://shoaibul0926.github.io/resume-ats-analyzer/" target="_blank" rel="noopener">Live</a>
+          <a href="https://github.com/shoaibul0926/resume-ats-analyzer" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <span class="tag">Game</span>
+        <h3>Daily Five</h3>
+        <p>Mobile-friendly Wordle-style word game with a Daily mode (shared word, streak tracking) and unlimited
+          Practice mode.</p>
+        <div class="project-links">
+          <a href="https://shoaibul0926.github.io/wordle-game/" target="_blank" rel="noopener">Live</a>
+          <a href="https://github.com/shoaibul0926/wordle-game" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <span class="tag">RTL · Verilog</span>
+        <h3>4-bit Ripple Carry Counter</h3>
+        <p>Verilog RTL design simulated in Icarus Verilog with a GTKWave waveform capture, pushed with full
+          testbench and results.</p>
+        <div class="project-links">
+          <a href="https://shoaibul0926.github.io/ripple-counter-4bit/" target="_blank" rel="noopener">Live</a>
+          <a href="https://github.com/shoaibul0926/ripple-counter-4bit" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <span class="tag">AI · EdTech</span>
+        <h3>EduPilot AI</h3>
+        <p>AI teaching-assistant demo for CBSE/Karnataka schools: teacher &amp; student dashboards, AI evaluation,
+          and AI mistake analysis. Codebase is private.</p>
+        <div class="project-links">
+          <a href="https://edupilot-ai-nine.vercel.app" target="_blank" rel="noopener">Live demo</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <h2>Education</h2>
+    <div class="edu-item">
+      <strong>BMS Institute of Technology and Management, Bengaluru, India</strong>
+      <div class="meta">Bachelor of Engineering in Electronics and Communication · 2021 – 2025 · CGPA 7.48/10</div>
+    </div>
+    <div class="edu-item">
+      <strong>Narayan Residential PU College, Bengaluru, India</strong>
+      <div class="meta">PUC (PCMB) · 2019 – 2021 · 83.33%</div>
+    </div>
+    <div class="edu-item">
+      <strong>Jindal Vidya Mandir, Ballari, Karnataka, India</strong>
+      <div class="meta">Class 10 (CBSE) · 2018 – 2019 · 80.00%</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>
+      <a href="mailto:shoaibulhoque2002@gmail.com">shoaibulhoque2002@gmail.com</a> ·
+      <a href="https://github.com/shoaibul0926" target="_blank" rel="noopener">github.com/shoaibul0926</a> ·
+      <a href="https://www.linkedin.com/in/shoaibul-hoque-456632252" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
+    <p>&copy; <span id="year"></span> Shoaibul Hoque</p>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
